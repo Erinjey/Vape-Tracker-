@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vape Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Vape Tracker</h1>
+        <p class="subtitle">Breathe deeper, live better. One less vape at a time!</p>
+        
+        <button id="logButton" class="btn">Log Vape Session</button>
+        
+        <canvas id="progressChart"></canvas>
+        
+        <div id="stats" class="stats-box"></div>
+        
+        <div class="goal-section">
+            <input type="text" id="goalInput" placeholder="Set your goal...">
+            <button id="setGoalButton" class="btn">Set Goal</button>
+            <p id="goalDisplay">🎯 Your Goal: No goal set.</p>
+        </div>
+        
+        <div class="motivation-box" id="motivation"></div>
+        
+        <ul id="logList" class="log-list"></ul>
+    </div>
+    
+    <footer>Created with ❤️ by Abhishek Erinjery</footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
